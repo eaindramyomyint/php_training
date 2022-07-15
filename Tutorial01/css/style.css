@@ -1,0 +1,14 @@
+body {
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  max-width: 1920px;
+}
+
+.t {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0px;
+  border: 1px solid #000000;
+  border-spacing: 0px;
+}
