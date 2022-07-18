@@ -1,0 +1,15 @@
+body {
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  max-width: 1920px;
+}
+
+.table {
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-spacing: 1px;
+}
