@@ -1,0 +1,33 @@
+.form-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(140, 152, 164, 0.3);
+  background: #fff;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+.input-wrapper label {
+  padding-right: 20px;
+}
+
+.result-wrapper {
+  padding: 10px;
+  background: #37aed6;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  background: #eee;
+}
+
+h1 {
+  text-align: center;
+}
