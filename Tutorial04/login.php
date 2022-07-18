@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/rest.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Login Page</title>
 </head>
 <body>
     
     
-<form action="" method="post" name="Login_Form">
+<form action="" method="post" name="Login_Form" class="form-wrapper">
   <table class="table">
    
     <tr>
@@ -25,7 +27,7 @@
     </tr>
     <tr>
       <td> </td>
-      <td><input name="Submit" type="submit" value="Login" class="Button3"></td>
+      <td><input name="Submit" type="submit" value="Login" class="Button"></td>
     </tr>
   </table>
   
