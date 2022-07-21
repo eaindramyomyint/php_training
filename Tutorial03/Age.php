@@ -23,7 +23,7 @@
       function getAge($dob)
       {
           $bday = new DateTime($dob);
-          $string = $bday->format('M-D-Y H:i:s');
+          $string = $bday->format('M-D-Y');
           $today = new Datetime(date('m.d.y'));
           if ($bday>$today) {
               return 'Not born yet';
