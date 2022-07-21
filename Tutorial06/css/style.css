@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  padding: 50px;
+  background: lightgrey;
+}
+.file_form{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(140, 152, 164, 0.3);
+ border: 1px solid;
+}
+.img_form{
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
