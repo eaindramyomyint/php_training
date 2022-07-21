@@ -14,7 +14,7 @@
 <div class="form-wrapper">
   <form>
     <div class="input-wrapper">
-      <label>Date of Birth</label>
+      <label>Date of Birth :</label>
       <input type="date" name="dob" value="<?php echo (isset($_GET['dob']))?$_GET['dob']:'';?>">
       <input type="submit" value="Calculate Age">
     </div>
