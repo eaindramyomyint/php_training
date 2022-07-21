@@ -32,13 +32,7 @@
   </table>
   
 </form>
-<div>
-    <p>
-        username=>'Alex' password=> '123456'<br>
-        username=>'username1' password=> 'password1'<br>
-        username=>'username2' password=> 'password2'<br>
-    </p>
-</div>
+
 </body>
 </html>
 <?php
