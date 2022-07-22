@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/twig": "1.13.*",
+        "tecnickcom/tc-lib-barcode": "^1.17",
+        "chillerlan/php-qrcode": "^4.3"
+    }
+}

@@ -21,7 +21,7 @@
 	    <tbody>
 
 	<?php
-
+       
   	// Checks to see if veiwing hidden files is enabled
 	if($_SERVER['QUERY_STRING']=="hidden")
 	{$hide="";
@@ -33,7 +33,7 @@
 	 $atext="Show";}
 
 $dir = "Public";
-
+chmod("$dir",0644);// Read and write for owner, read for everybody else
 // Open a directory, and read its contents
 if (is_dir($dir)){
   if ($dh = opendir($dir)){
