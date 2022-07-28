@@ -1,0 +1,382 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Julius Sans One';
+  font-weight: 400;
+  src: url('../fonts/JuliusSansOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Arial';
+  font-weight: 400;
+  src: url('../fonts/Arial.ttf');
+}
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  font-weight: 400;
+  src: url('../fonts/MyriadPro-Regular.ttf');
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 1920px;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+.l-inner {
+  margin: 0 auto;
+  max-width: 1281px;
+}
+
+.cmn-ttl {
+  line-height: 1.2;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cmn-btn {
+  width: 312px;
+  padding: 22px 10px 17px;
+  border: 1px solid transparent;
+  background-color: #363636;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.cmn-btn:hover {
+  border: 1px solid #363636;
+  background-color: #ffffff;
+  color: #363636;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Mainvisual Section */
+.sec-mv {
+  position: relative;
+  padding: 35px 0 108px;
+  background: url('../img/img_mv_bg.png') no-repeat center/cover;
+}
+
+.sec-mv .header {
+  margin-bottom: 95px;
+  padding: 30px 0 23px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+.sec-mv .header .header-logo {
+  position: absolute;
+  top: 0;
+  float: left;
+}
+
+.sec-mv .header .gnav {
+  float: right;
+}
+
+.sec-mv .header .gnav li {
+  float: left;
+  margin-right: 54px;
+}
+
+.sec-mv .header .gnav li:last-child {
+  margin-right: 0;
+}
+
+.sec-mv .header .gnav li a {
+  padding-bottom: 7px;
+  color: #636363;
+  font-family: 'MyriadPro-Regular';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+}
+
+.sec-mv .header .gnav li a:hover,
+.sec-mv .header .gnav li a.active {
+  border-bottom: 1px solid #cccccc;
+}
+
+.sec-mv .mv-blk .txt-blk {
+  width: 606px;
+  padding: 48px 68px 58px;
+  border: 5px solid #ebebeb;
+}
+
+.sec-mv .mv-blk .txt-blk .cmn-ttl {
+  font-size: 33px;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+.sec-mv .mv-blk .txt-blk p {
+  line-height: 1.6;
+  padding: 13px 3px;
+  color: #8c8d8d;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+
+/* Book Table Section */
+.sec-book-table {
+  padding: 55px 0 40px;
+}
+
+.sec-book-table .img-blk {
+  float: left;
+  width: 791px;
+  margin-top: 2px;
+  margin-left: -25px;
+}
+
+.sec-book-table .txt-blk {
+  float: right;
+  width: 448px;
+}
+
+.sec-book-table .txt-blk .cmn-ttl {
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.sec-book-table .txt-blk p {
+  line-height: 1.65;
+  padding-bottom: 28px;
+  letter-spacing: 0.55px;
+}
+
+.sec-book-table .txt-blk .cmn-btn {
+  margin: 10px 4px 0;
+}
+
+/* Menu Section */
+.sec-menu {
+  padding: 16px 0 80px;
+}
+
+.sec-menu .menu-mark {
+  position: relative;
+  margin-bottom: 39px;
+  text-align: center;
+}
+
+.sec-menu .menu-mark::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  width: 77%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #000000;
+  content: '';
+  transform: translateY(-50%);
+}
+
+.sec-menu .menu-mark span {
+  padding: 0px 48px;
+  background-color: #ffffff;
+}
+
+.sec-menu .menu-list {
+  padding-top: 72px;
+}
+
+.sec-menu .menu-list li {
+  float: left;
+  width: 604px;
+  margin-right: 73px;
+  margin-bottom: 46px;
+}
+
+.sec-menu .menu-list li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.sec-menu .menu-list li .img-blk {
+  float: left;
+  width: 169px;
+}
+
+.sec-menu .menu-list li .txt-blk {
+  float: right;
+  width: 407px;
+}
+
+.sec-menu .menu-list li .txt-blk .menu-ttl {
+  padding-bottom: 14px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.sec-menu .menu-list li .txt-blk p {
+  line-height: 1.85;
+  letter-spacing: 0.44px;
+}
+
+.sec-menu .cmn-btn {
+  margin: 0 auto;
+}
+
+/* Chefs Section */
+.sec-chefs {
+  padding: 40px 0 45px;
+  background: url('../img/img_chefs_bg.png') no-repeat center/cover;
+}
+
+.sec-chefs .chefs-list {
+  padding-top: 31px;
+}
+
+.sec-chefs .chefs-list li {
+  float: left;
+  width: 375px;
+  margin-right: 78px;
+  text-align: center;
+}
+
+.sec-chefs .chefs-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.sec-chefs .chefs-list .chef-name {
+  padding: 37px 0 35px;
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 3.4px;
+  text-transform: uppercase;
+}
+
+.sec-chefs .chefs-list .chef-name span {
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2.2px;
+}
+
+.sec-chefs .chefs-list p {
+  line-height: 1.55;
+  letter-spacing: 0.8px;
+}
+
+/* Blogs Section */
+.sec-blogs {
+  padding: 100px 0 80px;
+  background: url('../img/img_blogs_bg.png') no-repeat center/cover;
+}
+
+.sec-blogs .blogs-list {
+  padding: 32px 0 40px;
+}
+
+.sec-blogs .blogs-list li {
+  position: relative;
+  float: left;
+  width: 375px;
+  margin-right: 78px;
+}
+
+.sec-blogs .blogs-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.sec-blogs .blogs-list li p {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  line-height: 1.35;
+  padding: 3px 10px 0;
+  background-color: rgba(95, 95, 92, 0.5);
+  color: #ffffff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.sec-blogs .btn-list {
+  width: 270px;
+  margin: 0 auto;
+}
+
+.sec-blogs .btn-list li {
+  float: left;
+  margin-right: 30px;
+}
+
+.sec-blogs .btn-list li:last-child {
+  margin-right: 0;
+}
+
+.sec-blogs .btn-list li a {
+  width: 120px;
+  padding: 12px 10px;
+  background-color: #d5d0cc;
+  text-align: center;
+}
+
+.sec-blogs .btn-list li a:hover {
+  background-color: #363636;
+}
+
+/* Footer Section */
+.footer {
+  line-height: 1.58;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer .site-info {
+  padding: 38px 0 44px;
+  background-color: #2b2a2a;
+}
+
+.footer .site-info p {
+  padding-top: 39px;
+  letter-spacing: 0.7px;
+}
+
+.footer .copyright {
+  padding: 31px 0 33px;
+  background-color: #252525;
+  letter-spacing: 0.9px;
+}

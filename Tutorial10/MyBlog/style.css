@@ -1,0 +1,14 @@
+.form-div{
+  width: 400px;
+  margin: 0 auto;
+  padding: 25px 15px 10px 15px;
+  border: 1px solid #80ced7;
+  border-radius: 5px;
+  font-size: medium;
+}
+.btn{
+  width: 368px;
+  height: 45px;
+  background-color: #80ced7;
+  padding: 3px;
+}
